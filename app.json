@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TalkingEmoji",
-    "slug": "TalkingEmoji",
+    "name": "finalProject",
+    "slug": "finalProject",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,14 +21,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "ca.auronemard.talkingEmoji",
-      "versionCode": 1120
+      "versionCode": 1000
     },
     "web": {
-      "favicon": "./assets/icon.png"
+      "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
@@ -39,7 +39,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "3d9a8c29-f894-4cbd-9bf0-f9892384358c"
+        "projectId": "afbdb478-6265-4695-8e79-a24d1f7628e3"
       }
     }
   }

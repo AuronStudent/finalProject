@@ -1,8 +1,5 @@
-npx expo install expo-av
-npx expo install expo-sqlite
-expo-router
-expo-linking
-expo-constants
-expo-status-bar
-react-native-safe-area-context
-react-native-screens
+additional libraries: npx expo install expo-av install expo-sqlite expo-router expo-linking expo-constants expo-status-bar react-native-safe-area-context react-native-screens
+
+This app is my own spin on the "talking tom" apps where you say something and it gets repeated to you
+there are a ton of options when you get into the app, along with an "eight ball" section
+where you can ask the emoji yes or no questions and it will respond to you appropriately.

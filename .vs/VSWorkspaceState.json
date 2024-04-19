@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\app",
     "\\assets",
     "\\components",
     "\\Styles"
   ],
-  "SelectedNode": "\\components\\historyItem.js",
+  "SelectedNode": "\\eas.json",
   "PreviewInSolutionExplorer": false
 }
