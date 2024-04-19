@@ -41,6 +41,14 @@ export default function Layout() {
                     presentation: 'modal',
                 }}
             />
+            <Stack.Screen
+                name="history2"
+                options={{
+                    headerTitle: "History",
+                    headerShown: true,
+                    presentation: 'modal',
+                }}
+            />
         </Stack>
     );
 }

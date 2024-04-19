@@ -32,6 +32,15 @@ const styles = StyleSheet.create({
         borderWidth: 2,
         padding: 5,
     },
+    input: {
+        width: '80%',
+        flex: .08,
+        borderWidth: 2,
+        borderRadius: 10,
+        paddingLeft: 15,
+        margin: 15,
+        fontSize: 20,
+    },
 });
 
 export default styles;

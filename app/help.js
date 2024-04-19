@@ -6,15 +6,17 @@ export default function Page() {
     return (
         <View style={styles.container} >
 
-            <Text style={{ fontSize: 30 }}>How To Play</Text>
+            <Text style={{ fontSize: 30 }}>Instructions</Text>
 
             <Text>{"\n"}</Text><Text>{"\n"}</Text>
-            <Text style={{ fontSize: 20 }}>      Mind is wept is a game of luck, where you click on boxes and if it does not have a mine in it, you gain points. points will start at 100 and double everytime you click a box without a mine. </Text>
-            <Text style={{ fontSize: 20 }}>      At any time you can choose to give up and take your current score, but that ends the game and you would have to play again to gain more points. </Text>
-            <Text style={{ fontSize: 20 }}>      If you hit a mine at anytime your score will decrease to zero and you will lose the game. There is also a timer of 100 seconds that also reduces your score to zero if the timer runs out.</Text>
-            <Text style={{ fontSize: 20 }}>      There are 3 difficulties, easy, medium, and hard. Each difficulty increases the amount of boxes on the playing field, which can increase your score but also has a better chance of a mine being clicked</Text>
-            <Text>{"\n"}</Text>
-            <Text style={{ fontSize: 20 }}>      Try to go for the highest score possible and good luck!</Text>
+            <Text style={{ fontSize: 20 }}>Talking Emoji is a simple game about an emoji that will record your voice and repeat it back to you.</Text>
+            <Text>{"\n"}</Text><Text>{"\n"}</Text>
+            <Text style={{ fontSize: 20 }}>To play, simpley press the start recording button to record your voice and he will listen to you, then you can stop recording and he will play it back to you.</Text>
+            <Text>{"\n"}</Text><Text>{"\n"}</Text>
+            <Text style={{ fontSize: 20 }}>There is also a history button so you can go back and listen to everything that has been recorded.</Text>
+            <Text>{"\n"}</Text><Text>{"\n"}</Text>
+            <Text style={{ fontSize: 20 }}>In the 8 ball section, you can ask a question to the almighty emoji and he will tell you yes, no, or maybe.</Text>
+
         </View>
     )
 }

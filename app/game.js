@@ -74,7 +74,7 @@ export default App = () => {
         const { sound } = await Audio.Sound.createAsync({
             uri: recordingUri,
         });
-        setPlayback(sound);
+
         await sound.replayAsync();
         console.log('Playing recorded sound from ', recordingUri);
 
@@ -169,7 +169,7 @@ export default App = () => {
                 
                 onPress={recording ? stopRecording : startRecording}
             >
-                <Text>{recording ? 'Stop Recording' : 'Start Recording' }</Text>
+                <Text style={{ fontSize: 30 }}>{recording ? 'Stop Recording' : 'Start Recording' }</Text>
             </Pressable>
             <Text>{'\n' }</Text>
             <Link href={{
@@ -183,7 +183,23 @@ export default App = () => {
                     style={styles.button }
                     
                 >
-                    <Text>History</Text>
+                    <Text style={{ fontSize: 30 }}>History</Text>
+                </Pressable>
+            </Link>
+
+            <Text>{'\n'}</Text>
+            <Link href={{
+                pathname: "/eightball",
+                
+            }} asChild
+
+
+            >
+                <Pressable
+                    style={styles.button}
+
+                >
+                    <Text style={{ fontSize: 30 }}>Eight Ball</Text>
                 </Pressable>
             </Link>
            

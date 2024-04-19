@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Talking Emoji",
+    "name": "TalkingEmoji",
     "slug": "TalkingEmoji",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -17,22 +17,30 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "ca.auronemard.talkingEmoji",
-        "buildNumber": "1.0.0"
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "ca.auronemard.talkingEmoji",
       "versionCode": 1120
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
     },
     "plugins": [
       "expo-router"
     ],
-    "scheme": "router"
+    "scheme": "router",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "3d9a8c29-f894-4cbd-9bf0-f9892384358c"
+      }
+    }
   }
 }
